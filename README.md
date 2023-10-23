@@ -27,7 +27,7 @@ Paper link:https://arxiv.org/abs/2309.00384#
   - write your template for **single** data point in `./<your_dataset>/prompt_template.txt`; Keep the word of **[INPUT_INDEX]** but you can change the word of *Input* if you want. All characters in **[]** must be **upper case** and they should exactly match the key name in your dataset. Key names for your dataset can be found in `datasets_glue_superglue.ipynb`.
   - Notice all the data format in these prompt files should match!
 
-**You can ignore step 2-4 if you do not want to fine-tune the parameters by yourself. For model fine-tuning, SEAS is not included. You can directly conduct step5 to get the results of "BatchPrompt+BPE+SEAS".**
+**Please notice step 2-4 are used for you to fine-tune the parameters by yourself on your own data or the provided data. You can ignore step 2-4 if you do not want to fine-tune the parameters. For model fine-tuning, SEAS is not included. You can directly conduct step5 to get the final results in the paper.**
 
 - **Step2**: run a small amount of data, to figure out the best parameters you may need.
 ```
@@ -40,7 +40,7 @@ $ sh <data_set>/run_small.sh
 $ cd <folder_path>/BatchPrompt
 $ sh <data_set>/run_full.sh
 
-- **Step5**: Run the final model, "BPE+SEAS". Record all the results in `./<your_dataset>/results/result.md`. The original results in the paper have been saved in the results already.
+- **Step5**: Run the final model, "BPE+SEAS". Record all the results in `./<your_dataset>/results/`. The original results in the paper have been saved in the results already.
 $ cd <folder_path>/BatchPrompt
 $ sh scripts/run_batch.sh
   

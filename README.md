@@ -1,7 +1,7 @@
 
-# BatchGPT
+# BatchPrompt
 
-This repo saves the code for BatchGPT Project.
+This repo saves the code for BatchPrompt Project.
 
 ## Motivation
 1. **Main Idea**: when we do data processing using LLM, we can do it in *Batch-fashion* to improve efficiency in terms of:
@@ -14,7 +14,7 @@ This repo saves the code for BatchGPT Project.
 3. **Observation**: we find the accuracy oscillates with different locations within a batch.
 4. **Hypothesis**: for this observation, we have several guesses/hypothesis: **(1)** data correlation for adjacent data points. **(2)** data bias due to different difficulty of data points.
 5. **Solution**: permutation + voting. Permutation enables different data appear in different location to reduce the data correlation and bias due to different difficulty of data points. Voting helps to boost the Accuracy (self-consistency).
-6. **Motivation**: with helps of **permutation + voting**, we improve accuracy at the price of efficiency. Compared to non-BatchGPT (batch size=1), we improve efficiency by a lot without hurting accuracy.
+6. **Motivation**: With helps of **permutation + voting**, we improve accuracy at the price of efficiency. With the proposed **SEAS**, the lost efficiency was recovered. Compared to SinglePrompt (batch size=1), we improve efficiency by a lot without hurting accuracy. 
 
 
 ## Experiments
@@ -26,16 +26,13 @@ This repo saves the code for BatchGPT Project.
   - write your template for **single** data point in `./<your_dataset>/prompt_template.txt`; Keep the word of **[INPUT_INDEX]** but you can change the word of *Input* if you want. All characters in **[]** must be **upper case** and they should exactly match the key name in your dataset. Key names for your dataset can be found in `datasets_glue_superglue.ipynb`.
   - Notice all the data format in these prompt files should match!
 
-- **Step2**: run a small amount of data by choosing proper `--early_stop` by running the command. Keep the `--batch_size=1` and `--num_vote=1`.
+- **Step2**: run a small amount of data through:
 ```
-$ cd <folder_path>/BatchGPT
-$ sh <your_dataset>/run_small.sh
+$ cd <folder_path>/BatchPrompt
+$ sh scripts/run_batch.sh
 ```
-- **Step3**: repeat `Step2` to match the leaderboard accuracy by adjusting all prompts in `Step1`. If you find the accuracy is **too low**, you might need to change the dataset from `glue` or `superglue`.
+- **Step3**: repeat `Step2` to match the leaderboard accuracy by adjusting all prompts in `Step1`. If you find the accuracy is **too low**, you might need to adjust the model parameters, as can be found in the bash file.
 
 - **Step4**: keep all prompts and do not change them. Run 320 data for different configurations. Record all the results in `./<your_dataset>/results/result.md`.
-```
-$ cd <folder_path>/BatchGPT
-$ sh <your_dataset>/run_full.sh
-```
-  *Tips*: in Step4, you can firstly run **chatgpt** experiments to get **indices320.json**, which are data filtered by sensitive information. We assume that chatgpt and gpt4 use the same filtering so that run chatgpt first will skip this filtering in gpt4 experiments. After you get this filtered data, you can all experiments in parallel.
+
+  *Tips*: Please notice we have a automatic sub-step in Step4 to filter out the sensitive data. in Step4, you can firstly run **chatgpt** experiments to get **indices320.json**, which are data filtered by sensitive information. We assume that chatgpt and gpt4 use the same filtering so that run chatgpt first will skip this filtering in gpt4 experiments. After you get this filtered data, you can all experiments in parallel.

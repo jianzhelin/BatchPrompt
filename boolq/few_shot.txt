@@ -1,0 +1,20 @@
+Input 0: 
+Passage: Property tax -- Property tax or 'house tax' is a local tax on buildings, along with appurtenant land. It is and imposed on the Possessor (not the custodian of property as per 1978, 44th amendment of constitution). It resembles the US-type wealth tax and differs from the excise-type UK rate. The tax power is vested in the states and is delegated to local bodies, specifying the valuation method, rate band, and collection procedures. The tax base is the annual rental value (ARV) or area-based rating. Owner-occupied and other properties not producing rent are assessed on cost and then converted into ARV by applying a percentage of cost, usually four percent. Vacant land is generally exempt. Central government properties are exempt. Instead a 'service charge' is permissible under executive order. Properties of foreign missions also enjoy tax exemption without requiring reciprocity. The tax is usually accompanied by service taxes, e.g., water tax, drainage tax, conservancy (sanitation) tax, lighting tax, all using the same tax base. The rate structure is flat on rural (panchayat) properties, but in the urban (municipal) areas it is mildly progressive with about 80% of assessments falling in the first two brackets. 
+Question: is house tax and property tax are same
+
+Input 1: 
+Passage: Pardon -- The pardon power of the President extends only to an offense recognizable under federal law. However, the governors of most of the 50 states have the power to grant pardons or reprieves for offenses under state criminal law. In other states, that power is committed to an appointed agency or board, or to a board and the governor in some hybrid arrangement (in some states the agency is merged with that of the parole board, as in the Oklahoma Pardon and Parole Board). 
+Question: can the president pardon someone convicted of a state crime
+
+Input 2: 
+Passage: Jurassic World: Fallen Kingdom -- Filming took place from February to July 2017 in the United Kingdom and Hawaii. Produced and distributed by Universal Pictures, Fallen Kingdom premiered in Madrid on May 21, 2018, and was released internationally in early June 2018 and in the United States on June 22, 2018. The film has grossed over $1.2 billion worldwide, making it the third Jurassic film to pass the mark, the third highest-grossing film of 2018 and the 13th highest-grossing film of all time. It received mixed reviews from critics, who praised Pratt's performance, Bayona's direction, the visuals, and the ``surprisingly dark moments'', although many criticized the screenplay and lack of innovation, with some suggesting the series has run its course. An untitled sequel is set to be released on June 11, 2021, with Trevorrow returning to direct. 
+Question: will there be a jurassic world fallen kingdom sequel
+
+Input 3: 
+Passage: The Tudors -- Showtime announced 13 April 2009, that it had renewed the show for a fourth and final season. The network ordered 10 episodes that were first broadcast on 11 April 2010. The series finale was broadcast on 20 June 2010. The final season was shown in Canada on CBC starting 22 September 2010, and ending on 23 November 2010. 
+Question: is there a season 5 of the tudors
+====Answer====
+Label for Input 0: [class 1]
+Label for Input 1: [class 0]
+Label for Input 2: [class 1]
+Label for Input 3: [class 0]

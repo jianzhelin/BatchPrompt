@@ -1,0 +1,505 @@
+nohup: ignoring input
+Found cached dataset glue (/home/azureuser/.cache/huggingface/datasets/glue/qqp/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+
+  0%|                                                                                                                                                             | 0/3 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 207.27it/s]
+
+Filter:   0%|                                                                                                                                          | 0/40430 [00:00<?, ? examples/s]
+Filter:  17%|█████████████████████▍                                                                                                      | 7000/40430 [00:00<00:00, 59559.21 examples/s]
+Filter:  37%|█████████████████████████████████████████████▋                                                                             | 15000/40430 [00:00<00:00, 60463.75 examples/s]
+Filter:  54%|██████████████████████████████████████████████████████████████████▉                                                        | 22000/40430 [00:00<00:00, 60651.61 examples/s]
+Filter:  79%|█████████████████████████████████████████████████████████████████████████████████████████████████▎                         | 32000/40430 [00:00<00:00, 59840.30 examples/s]
+Filter:  96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋    | 39000/40430 [00:00<00:00, 60050.87 examples/s]
+                                                                                                                                                                                        
+
+0it [00:00, ?it/s]
+1it [00:56, 56.14s/it]
+2it [02:28, 77.32s/it]
+3it [04:12, 89.81s/it]
+4it [05:30, 85.05s/it]
+5it [07:23, 95.10s/it]
+6it [08:56, 94.51s/it]
+7it [10:11, 88.10s/it]
+8it [11:13, 79.79s/it]
+9it [12:56, 86.92s/it]
+10it [14:26, 87.84s/it]
+10it [14:26, 86.64s/it]
+[QQP] ===== Voting 1 Times =====
+[QQP] Accuracy is 75.0%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 10 times, save 96.875%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 17641, save 89.70776133161417%!
+
+
+[QQP] ===== Voting 3 Times =====
+[QQP] Accuracy is 75.3125%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 30 times, save 90.625%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 38148, save 77.74342040011435%!
+
+
+[QQP] ===== Voting 5 Times =====
+[QQP] Accuracy is 76.25%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 50 times, save 84.375%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 50514, save 70.52876004224014%!
+
+
+[QQP] ===== Voting 7 Times =====
+[QQP] Accuracy is 78.125%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 70 times, save 78.125%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 60133, save 64.91677411450341%!
+
+
+[QQP] ===== Voting 9 Times =====
+[QQP] Accuracy is 77.8125%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 90 times, save 71.875%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 67842, save 60.41913407739745%!
+
+
+Found cached dataset glue (/home/azureuser/.cache/huggingface/datasets/glue/qqp/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+
+  0%|                                                                                                                                                             | 0/3 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 200.01it/s]
+
+Filter:   0%|                                                                                                                                          | 0/40430 [00:00<?, ? examples/s]
+Filter:  15%|██████████████████▍                                                                                                         | 6000/40430 [00:00<00:00, 53949.85 examples/s]
+Filter:  30%|████████████████████████████████████▌                                                                                      | 12000/40430 [00:00<00:00, 55999.31 examples/s]
+Filter:  45%|██████████████████████████████████████████████████████▊                                                                    | 18000/40430 [00:00<00:00, 55010.93 examples/s]
+Filter:  59%|█████████████████████████████████████████████████████████████████████████                                                  | 24000/40430 [00:00<00:00, 55424.83 examples/s]
+Filter:  74%|███████████████████████████████████████████████████████████████████████████████████████████▎                               | 30000/40430 [00:00<00:00, 56312.73 examples/s]
+Filter:  89%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▌             | 36000/40430 [00:00<00:00, 56156.02 examples/s]
+                                                                                                                                                                                        
+
+0it [00:00, ?it/s]
+1it [02:01, 121.85s/it]
+2it [03:34, 104.58s/it]
+3it [05:54, 120.71s/it]
+4it [18:10, 363.55s/it]
+5it [20:17, 278.42s/it]
+6it [22:26, 227.55s/it]
+7it [24:51, 200.70s/it]
+8it [26:44, 172.58s/it]
+9it [28:47, 157.11s/it]
+10it [31:00, 149.83s/it]
+10it [31:00, 186.08s/it]
+Exception: The server is overloaded or not ready yet.
+Exception: Request timed out: HTTPSConnectionPool(host='applied-science-unified-openai-dev-south-central.openai.azure.com', port=443): Read timed out. (read timeout=600)
+Exception: The server is overloaded or not ready yet.
+[QQP] ===== Voting 1 Times =====
+[QQP] Accuracy is 88.125%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 10 times, save 96.875%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 17641, save 89.70776133161417%!
+
+
+[QQP] ===== Voting 3 Times =====
+[QQP] Accuracy is 88.4375%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 30 times, save 90.625%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 31900, save 81.38867334496298%!
+
+
+[QQP] ===== Voting 5 Times =====
+[QQP] Accuracy is 88.4375%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 50 times, save 84.375%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 33170, save 80.64772084176872%!
+
+
+[QQP] ===== Voting 7 Times =====
+[QQP] Accuracy is 88.4375%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 70 times, save 78.125%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 33253, save 80.59929638683555%!
+
+
+[QQP] ===== Voting 9 Times =====
+[QQP] Accuracy is 88.4375%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 90 times, save 71.875%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 33253, save 80.59929638683555%!
+
+
+Found cached dataset glue (/home/azureuser/.cache/huggingface/datasets/glue/qqp/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+
+  0%|                                                                                                                                                             | 0/3 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 210.52it/s]
+
+Filter:   0%|                                                                                                                                          | 0/40430 [00:00<?, ? examples/s]
+Filter:  15%|██████████████████▍                                                                                                         | 6000/40430 [00:00<00:00, 54021.53 examples/s]
+Filter:  30%|████████████████████████████████████▌                                                                                      | 12000/40430 [00:00<00:00, 53994.33 examples/s]
+Filter:  45%|██████████████████████████████████████████████████████▊                                                                    | 18000/40430 [00:00<00:00, 55428.69 examples/s]
+Filter:  59%|█████████████████████████████████████████████████████████████████████████                                                  | 24000/40430 [00:00<00:00, 56432.00 examples/s]
+Filter:  74%|███████████████████████████████████████████████████████████████████████████████████████████▎                               | 30000/40430 [00:00<00:00, 57054.44 examples/s]
+Filter:  89%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▌             | 36000/40430 [00:00<00:00, 57153.98 examples/s]
+                                                                                                                                                                                        
+
+0it [00:00, ?it/s]
+1it [03:25, 205.95s/it]
+2it [07:02, 212.42s/it]
+3it [10:06, 199.36s/it]
+4it [13:25, 199.24s/it]
+5it [16:56, 203.27s/it]
+5it [16:56, 203.24s/it]
+Exception: The server is overloaded or not ready yet.
+[QQP] ===== Voting 1 Times =====
+[QQP] Accuracy is 85.9375%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 5 times, save 98.4375%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 15161, save 91.15466070793052%!
+
+
+[QQP] ===== Voting 3 Times =====
+[QQP] Accuracy is 87.8125%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 15 times, save 95.3125%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 29058, save 83.04677335604809%!
+
+
+[QQP] ===== Voting 5 Times =====
+[QQP] Accuracy is 87.8125%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 25 times, save 92.1875%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 29509, save 82.78364770333894%!
+
+
+[QQP] ===== Voting 7 Times =====
+[QQP] Accuracy is 87.8125%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 35 times, save 89.0625%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 29581, save 82.74164094725235%!
+
+
+[QQP] ===== Voting 9 Times =====
+[QQP] Accuracy is 87.8125%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 45 times, save 85.9375%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 29653, save 82.69963419116576%!
+
+
+Found cached dataset glue (/home/azureuser/.cache/huggingface/datasets/glue/qqp/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+
+  0%|                                                                                                                                                             | 0/3 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 175.81it/s]
+
+Filter:   0%|                                                                                                                                          | 0/40430 [00:00<?, ? examples/s]
+Filter:  15%|██████████████████▍                                                                                                         | 6000/40430 [00:00<00:00, 57058.24 examples/s]
+Filter:  30%|████████████████████████████████████▌                                                                                      | 12000/40430 [00:00<00:00, 57205.34 examples/s]
+Filter:  45%|██████████████████████████████████████████████████████▊                                                                    | 18000/40430 [00:00<00:00, 57176.97 examples/s]
+Filter:  59%|█████████████████████████████████████████████████████████████████████████                                                  | 24000/40430 [00:00<00:00, 56826.14 examples/s]
+Filter:  74%|███████████████████████████████████████████████████████████████████████████████████████████▎                               | 30000/40430 [00:00<00:00, 57282.10 examples/s]
+Filter:  89%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▌             | 36000/40430 [00:00<00:00, 57493.96 examples/s]
+                                                                                                                                                                                        
+
+0it [00:00, ?it/s]
+1it [09:39, 579.52s/it]
+2it [18:10, 538.91s/it]
+2it [18:10, 545.00s/it]
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+[QQP] ===== Voting 1 Times =====
+[QQP] Accuracy is 85.3125%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 2 times, save 99.375%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 13673, save 92.02280033372034%!
+
+
+[QQP] ===== Voting 3 Times =====
+[QQP] Accuracy is 86.25%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 6 times, save 98.125%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 27987, save 83.67162385283633%!
+
+
+[QQP] ===== Voting 5 Times =====
+[QQP] Accuracy is 86.5625%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 10 times, save 96.875%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 29765, save 82.63429034836436%!
+
+
+[QQP] ===== Voting 7 Times =====
+[QQP] Accuracy is 87.5%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 14 times, save 95.625%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 30396, save 82.2661478054387%!
+
+
+[QQP] ===== Voting 9 Times =====
+[QQP] Accuracy is 87.5%!
+[QQP] Baseline Calling 320 times!
+[QQP] BatchGPT Calling 18 times, save 94.375%!
+[QQP] Baseline TokenSize 171401!
+[QQP] BatchGPT TokenSize 30396, save 82.2661478054387%!
+
+
+Found cached dataset super_glue (/home/azureuser/.cache/huggingface/datasets/super_glue/rte/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed)
+
+  0%|                                                                                                                                                             | 0/3 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 837.86it/s]
+
+Filter:   0%|                                                                                                                                            | 0/277 [00:00<?, ? examples/s]
+                                                                                                                                                                                        
+
+0it [00:00, ?it/s]
+1it [01:04, 64.69s/it]
+2it [01:44, 50.29s/it]
+3it [22:51, 605.87s/it]
+4it [23:59, 393.39s/it]
+5it [35:22, 497.82s/it]
+6it [36:15, 346.41s/it]
+7it [37:20, 254.40s/it]
+8it [38:04, 187.43s/it]
+9it [38:30, 137.01s/it]
+9it [38:30, 256.69s/it]
+Exception: Request timed out: HTTPSConnectionPool(host='applied-science-unified-openai-dev-south-central.openai.azure.com', port=443): Read timed out. (read timeout=600)
+Exception: Request timed out: HTTPSConnectionPool(host='applied-science-unified-openai-dev-south-central.openai.azure.com', port=443): Read timed out. (read timeout=600)
+Exception: Request timed out: HTTPSConnectionPool(host='applied-science-unified-openai-dev-south-central.openai.azure.com', port=443): Read timed out. (read timeout=600)
+[RTE] ===== Voting 1 Times =====
+[RTE] Accuracy is 77.69516728624535%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 10 times, save 96.875%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 25921, save 83.62229102167183%!
+
+
+[RTE] ===== Voting 3 Times =====
+[RTE] Accuracy is 78.43866171003717%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 30 times, save 90.625%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 54000, save 65.8810892778164%!
+
+
+[RTE] ===== Voting 5 Times =====
+[RTE] Accuracy is 78.06691449814126%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 50 times, save 84.375%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 62838, save 60.296960889619%!
+
+
+[RTE] ===== Voting 7 Times =====
+[RTE] Accuracy is 77.69516728624535%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 70 times, save 78.125%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 67191, save 57.54659758640298%!
+
+
+[RTE] ===== Voting 9 Times =====
+[RTE] Accuracy is 78.06691449814126%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 90 times, save 71.875%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 69683, save 55.97207303974221%!
+
+
+Found cached dataset super_glue (/home/azureuser/.cache/huggingface/datasets/super_glue/rte/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed)
+
+  0%|                                                                                                                                                             | 0/3 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 839.03it/s]
+
+Filter:   0%|                                                                                                                                            | 0/277 [00:00<?, ? examples/s]
+                                                                                                                                                                                        
+
+0it [00:00, ?it/s]
+1it [02:12, 132.84s/it]
+2it [04:27, 134.12s/it]
+3it [06:24, 126.32s/it]
+4it [08:31, 126.46s/it]
+5it [10:25, 121.83s/it]
+6it [12:59, 132.97s/it]
+7it [15:08, 131.46s/it]
+8it [17:54, 142.51s/it]
+9it [18:45, 113.85s/it]
+9it [18:45, 125.02s/it]
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+[RTE] ===== Voting 1 Times =====
+[RTE] Accuracy is 88.10408921933085%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 10 times, save 96.875%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 25921, save 83.62229102167183%!
+
+
+[RTE] ===== Voting 3 Times =====
+[RTE] Accuracy is 90.33457249070632%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 30 times, save 90.625%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 47807, save 69.79402287230681%!
+
+
+[RTE] ===== Voting 5 Times =====
+[RTE] Accuracy is 91.07806691449815%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 50 times, save 84.375%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 48693, save 69.234220003791%!
+
+
+[RTE] ===== Voting 7 Times =====
+[RTE] Accuracy is 90.70631970260223%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 70 times, save 78.125%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 48970, save 69.0592026284198%!
+
+
+[RTE] ===== Voting 9 Times =====
+[RTE] Accuracy is 90.70631970260223%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 90 times, save 71.875%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 49070, save 68.99601946041575%!
+
+
+Found cached dataset super_glue (/home/azureuser/.cache/huggingface/datasets/super_glue/rte/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed)
+
+  0%|                                                                                                                                                             | 0/3 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 802.53it/s]
+
+Filter:   0%|                                                                                                                                            | 0/277 [00:00<?, ? examples/s]
+                                                                                                                                                                                        
+
+0it [00:00, ?it/s]
+1it [04:01, 241.41s/it]
+2it [07:38, 227.32s/it]
+3it [11:32, 230.37s/it]
+4it [15:58, 244.16s/it]
+5it [16:46, 173.50s/it]
+5it [16:46, 201.28s/it]
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+[RTE] ===== Voting 1 Times =====
+[RTE] Accuracy is 79.5539033457249%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 5 times, save 98.4375%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 23366, save 85.23662096417515%!
+
+
+[RTE] ===== Voting 3 Times =====
+[RTE] Accuracy is 85.50185873605948%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 15 times, save 95.3125%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 48647, save 69.26328426107284%!
+
+
+[RTE] ===== Voting 5 Times =====
+[RTE] Accuracy is 84.75836431226766%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 25 times, save 92.1875%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 51420, save 67.51121501232072%!
+
+
+[RTE] ===== Voting 7 Times =====
+[RTE] Accuracy is 84.75836431226766%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 35 times, save 89.0625%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 51541, save 67.43476337903583%!
+
+
+[RTE] ===== Voting 9 Times =====
+[RTE] Accuracy is 84.75836431226766%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 45 times, save 85.9375%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 51541, save 67.43476337903583%!
+
+
+Found cached dataset super_glue (/home/azureuser/.cache/huggingface/datasets/super_glue/rte/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed)
+
+  0%|                                                                                                                                                             | 0/3 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 841.27it/s]
+
+Filter:   0%|                                                                                                                                            | 0/277 [00:00<?, ? examples/s]
+                                                                                                                                                                                        
+
+0it [00:00, ?it/s]
+1it [11:30, 690.98s/it]
+2it [18:42, 538.19s/it]
+2it [18:42, 561.10s/it]
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+[RTE] ===== Voting 1 Times =====
+[RTE] Accuracy is 71.74721189591078%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 2 times, save 99.375%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 21833, save 86.20521892967714%!
+
+
+[RTE] ===== Voting 3 Times =====
+[RTE] Accuracy is 76.57992565055763%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 6 times, save 98.125%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 51048, save 67.74625639729577%!
+
+
+[RTE] ===== Voting 5 Times =====
+[RTE] Accuracy is 76.95167286245353%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 10 times, save 96.875%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 56633, save 64.21747646426992%!
+
+
+[RTE] ===== Voting 7 Times =====
+[RTE] Accuracy is 76.57992565055763%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 14 times, save 95.625%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 57004, save 63.98306691097492%!
+
+
+[RTE] ===== Voting 9 Times =====
+[RTE] Accuracy is 76.57992565055763%!
+[RTE] Baseline Calling 320 times!
+[RTE] BatchGPT Calling 18 times, save 94.375%!
+[RTE] Baseline TokenSize 158270!
+[RTE] BatchGPT TokenSize 57004, save 63.98306691097492%!
+
+

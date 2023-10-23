@@ -44,4 +44,16 @@ $ sh <data_set>/run_full.sh
 $ cd <folder_path>/BatchPrompt
 $ sh scripts/run_batch.sh
   
-  *Tips*: Please notice we have a automatic sub-step in Step4 to filter out the sensitive data. in Step4, you can firstly run **chatgpt** experiments to get **indices320.json**, which are data filtered by sensitive information. We assume that chatgpt and gpt4 use the same filtering so that run chatgpt first will skip this filtering in gpt4 experiments. After you get this filtered data, you can all experiments in parallel.
+  **Tips 1**: Please notice we have a automatic sub-step in Step4 to filter out the sensitive data. in Step4, you can firstly run **chatgpt** experiments to get **indices320.json**, which are data filtered by sensitive information. We assume that chatgpt and gpt4 use the same filtering so that run chatgpt first will skip this filtering in gpt4 experiments. After you get this filtered data, you can all experiments in parallel.
+  
+ **Tips 2**:
+ ```
+$ run.py
+```
+is used for model parameter fine-tuning, without SEAS.
+ ```
+$ adaptive_batch_run.py
+```
+is the model we proposed in the paper, including **BatchPrompt+BPE+SEAS**.
+
+  

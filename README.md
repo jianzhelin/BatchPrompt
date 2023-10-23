@@ -2,7 +2,7 @@
 # BatchPrompt
 
 This repo saves the code for BatchPrompt Project.
-Paper link:https://arxiv.org/abs/2309.00384#
+Paper link:https://arxiv.org/abs/2309.00384#.
 
 ## Motivation
 1. **Main Idea**: when we do data processing using LLM, we can do it in *Batch-fashion* to improve efficiency in terms of:

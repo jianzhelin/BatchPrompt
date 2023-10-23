@@ -1,0 +1,206 @@
+nohup: ignoring input
+Found cached dataset super_glue (/home/azureuser/.cache/huggingface/datasets/super_glue/boolq/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed)
+
+  0%|                                                                                                                                                          | 0/3 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 754.69it/s]
+
+Filter:   0%|                                                                                                                                        | 0/3270 [00:00<?, ? examples/s]
+                                                                                                                                                                                     
+
+0it [00:00, ?it/s]
+1it [21:06, 1266.06s/it]
+2it [21:59, 552.50s/it] 
+3it [23:03, 329.58s/it]
+4it [24:09, 225.38s/it]
+5it [25:00, 162.60s/it]
+6it [28:39, 181.68s/it]
+7it [29:45, 143.89s/it]
+8it [30:55, 120.52s/it]
+9it [31:53, 101.05s/it]
+10it [32:55, 88.76s/it]
+10it [32:55, 197.51s/it]
+Exception: Request timed out: HTTPSConnectionPool(host='applied-science-unified-openai-dev-south-central.openai.azure.com', port=443): Read timed out. (read timeout=600)
+Exception: Request timed out: HTTPSConnectionPool(host='applied-science-unified-openai-dev-south-central.openai.azure.com', port=443): Read timed out. (read timeout=600)
+[BOOLQ] ===== Voting 1 Times =====
+[BOOLQ] Accuracy is 75.3125%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 10 times, save 96.875%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 56346, save 85.36262228987962%!
+
+
+[BOOLQ] ===== Voting 3 Times =====
+[BOOLQ] Accuracy is 79.375%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 30 times, save 90.625%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 112780, save 70.70238423051545%!
+
+
+[BOOLQ] ===== Voting 5 Times =====
+[BOOLQ] Accuracy is 80.0%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 50 times, save 84.375%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 123623, save 67.88562551630618%!
+
+
+[BOOLQ] ===== Voting 7 Times =====
+[BOOLQ] Accuracy is 80.3125%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 70 times, save 78.125%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 127807, save 66.79871982044234%!
+
+
+[BOOLQ] ===== Voting 9 Times =====
+[BOOLQ] Accuracy is 80.3125%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 90 times, save 71.875%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 129265, save 66.41996539774411%!
+
+
+Found cached dataset super_glue (/home/azureuser/.cache/huggingface/datasets/super_glue/boolq/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed)
+
+  0%|                                                                                                                                                          | 0/3 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 715.18it/s]
+
+Filter:   0%|                                                                                                                                        | 0/3270 [00:00<?, ? examples/s]
+                                                                                                                                                                                     
+
+0it [00:00, ?it/s]
+1it [02:45, 165.37s/it]
+2it [04:55, 144.46s/it]
+3it [07:11, 140.94s/it]
+4it [09:14, 133.74s/it]
+5it [11:56, 144.04s/it]
+6it [13:46, 132.29s/it]
+7it [15:52, 130.24s/it]
+8it [18:34, 140.44s/it]
+9it [20:29, 132.33s/it]
+10it [23:48, 152.93s/it]
+10it [23:48, 142.83s/it]
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+[BOOLQ] ===== Voting 1 Times =====
+[BOOLQ] Accuracy is 88.125%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 10 times, save 96.875%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 56346, save 85.36262228987962%!
+
+
+[BOOLQ] ===== Voting 3 Times =====
+[BOOLQ] Accuracy is 90.3125%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 30 times, save 90.625%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 105419, save 72.6146004894193%!
+
+
+[BOOLQ] ===== Voting 5 Times =====
+[BOOLQ] Accuracy is 90.9375%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 50 times, save 84.375%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 107957, save 71.95528723509271%!
+
+
+[BOOLQ] ===== Voting 7 Times =====
+[BOOLQ] Accuracy is 90.9375%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 70 times, save 78.125%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 108490, save 71.81682625615021%!
+
+
+[BOOLQ] ===== Voting 9 Times =====
+[BOOLQ] Accuracy is 90.9375%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 90 times, save 71.875%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 108712, save 71.75915582964883%!
+
+
+Found cached dataset super_glue (/home/azureuser/.cache/huggingface/datasets/super_glue/boolq/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed)
+
+  0%|                                                                                                                                                          | 0/3 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 783.25it/s]
+
+Filter:   0%|                                                                                                                                        | 0/3270 [00:00<?, ? examples/s]
+                                                                                                                                                                                     
+
+0it [00:00, ?it/s]
+1it [04:30, 270.57s/it]
+2it [10:19, 316.55s/it]
+3it [16:02, 328.90s/it]
+4it [23:12, 368.61s/it]
+5it [27:15, 323.51s/it]
+5it [27:15, 327.19s/it]
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+Exception: The server is overloaded or not ready yet.
+[BOOLQ] ===== Voting 1 Times =====
+[BOOLQ] Accuracy is 74.375%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 5 times, save 98.4375%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 51046, save 86.73943877842606%!
+
+[BOOLQ] ===== Voting 3 Times =====
+[BOOLQ] Accuracy is 87.8125%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 15 times, save 95.3125%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 113933, save 70.40286170008261%!
+
+
+[BOOLQ] ===== Voting 5 Times =====
+[BOOLQ] Accuracy is 88.75%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 25 times, save 92.1875%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 124424, save 67.6775443828485%!
+
+[BOOLQ] ===== Voting 7 Times =====
+[BOOLQ] Accuracy is 89.0625%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 35 times, save 89.0625%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 126337, save 67.18059156349202%!
+
+[BOOLQ] ===== Voting 9 Times =====
+[BOOLQ] Accuracy is 89.0625%!
+[BOOLQ] Baseline Calling 320 times!
+[BOOLQ] BatchGPT Calling 45 times, save 85.9375%!
+[BOOLQ] Baseline TokenSize 384946!
+[BOOLQ] BatchGPT TokenSize 126337, save 67.18059156349202%!
+
+

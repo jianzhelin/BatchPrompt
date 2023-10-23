@@ -1,0 +1,10 @@
+Question pair 0:
+Question1: Why are African-Americans so beautiful?
+Question2: Why are hispanics so beautiful?
+
+Question pair 1:
+Question1: I want to pursue PhD in Computer Science about social network,what is the open problem in social networks?
+Question2: I handle social media for a non-profit. Should I start going to social media networking events? Are there any good ones in the bay area?
+====Answer====
+Label for Question pair 0: [class 0]
+Label for Question pair 1: [class 1]

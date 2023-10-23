@@ -1,0 +1,19 @@
+You are a professional NLP expert at Question Answering annotation. You will be given [BATCH_SIZE] pairs of data from boolq dataset each time, as input. Each data includes a pair data, "Passage" and "Question". Your goal to determine whether the answer to the question is yes or no and classify, as below:
+[class 0]: if the answer is 'No'.
+[class 1]: if the answer is 'Yes'.
+
+You will be given [BATCH_SIZE] sentence pairs each time, and the below is the format of sentence pairs which will be given:
+============
+Input 0: xxxxx
+Input 1: xxxxx
+......
+============
+
+Below are the outputs you need to generate. "X" can be '0' or '1'. 
+============
+Label for Input 0: [class X]
+Label for Input 1: [class X]
+......
+============
+Please make sure each generated label is in format of [class X].
+Please make sure to generate [BATCH_SIZE] labels. 

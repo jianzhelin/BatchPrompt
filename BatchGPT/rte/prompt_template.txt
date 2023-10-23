@@ -1,3 +1,0 @@
-Sentence pair [INPUT_INDEX]: 
-Premise: [PREMISE]
-Hypothesis: [HYPOTHESIS]

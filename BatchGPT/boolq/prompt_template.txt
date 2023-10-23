@@ -1,3 +1,0 @@
-Input [INPUT_INDEX]: 
-Passage: [PASSAGE]
-Question: [QUESTION]

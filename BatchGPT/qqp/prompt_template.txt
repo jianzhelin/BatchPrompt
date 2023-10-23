@@ -1,3 +1,0 @@
-Question pair [INPUT_INDEX]: 
-Question1: [QUESTION1]
-Question2: [QUESTION2]
